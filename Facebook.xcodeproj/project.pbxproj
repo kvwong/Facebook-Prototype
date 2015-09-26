@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB20E9381BB4E4D700D56F5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB20E9371BB4E4D700D56F5D /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CB70E11A1BB240D90047F71F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70E1191BB240D90047F71F /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		CBD0DE941BABAF6300CC8E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DE931BABAF6300CC8E2F /* AppDelegate.swift */; };
 		CBD0DE961BABAF6300CC8E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DE951BABAF6300CC8E2F /* ViewController.swift */; };
 		CBD0DE991BABAF6300CC8E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD0DE971BABAF6300CC8E2F /* Main.storyboard */; };
@@ -14,6 +16,15 @@
 		CBD0DE9E1BABAF6300CC8E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD0DE9C1BABAF6300CC8E2F /* LaunchScreen.storyboard */; };
 		CBD0DEA91BABAF6300CC8E2F /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DEA81BABAF6300CC8E2F /* FacebookTests.swift */; };
 		CBD0DEB41BABAF6300CC8E2F /* FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DEB31BABAF6300CC8E2F /* FacebookUITests.swift */; };
+		CBD0DEC41BABB5BD00CC8E2F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DEC31BABB5BD00CC8E2F /* FeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBD0DEC61BABB61700CC8E2F /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DEC51BABB61700CC8E2F /* RequestViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBD0DEC81BABB62A00CC8E2F /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DEC71BABB62A00CC8E2F /* MessageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBD0DECA1BABB63B00CC8E2F /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DEC91BABB63B00CC8E2F /* NotificationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBD0DECC1BABB64600CC8E2F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DECB1BABB64600CC8E2F /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBEDEF381BABBFE600BA2610 /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDEF371BABBFE600BA2610 /* ThrillistViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBEDEF3A1BABD16B00BA2610 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDEF391BABD16B00BA2610 /* StatusViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBEDEF3C1BABD17900BA2610 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDEF3B1BABD17800BA2610 /* PhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CBEDEF3E1BABD18100BA2610 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDEF3D1BABD18100BA2610 /* LocationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB20E9371BB4E4D700D56F5D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB70E1191BB240D90047F71F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		CBD0DE901BABAF6300CC8E2F /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD0DE931BABAF6300CC8E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD0DE951BABAF6300CC8E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		CBD0DEAF1BABAF6300CC8E2F /* FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD0DEB31BABAF6300CC8E2F /* FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUITests.swift; sourceTree = "<group>"; };
 		CBD0DEB51BABAF6300CC8E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD0DEC31BABB5BD00CC8E2F /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CBD0DEC51BABB61700CC8E2F /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		CBD0DEC71BABB62A00CC8E2F /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		CBD0DEC91BABB63B00CC8E2F /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		CBD0DECB1BABB64600CC8E2F /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		CBEDEF371BABBFE600BA2610 /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
+		CBEDEF391BABD16B00BA2610 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		CBEDEF3B1BABD17800BA2610 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		CBEDEF3D1BABD18100BA2610 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,8 @@
 		CBD0DE871BABAF6300CC8E2F = {
 			isa = PBXGroup;
 			children = (
+				CBEDEF371BABBFE600BA2610 /* ThrillistViewController.swift */,
+				CBD0DEC31BABB5BD00CC8E2F /* FeedViewController.swift */,
 				CBD0DE921BABAF6300CC8E2F /* Facebook */,
 				CBD0DEA71BABAF6300CC8E2F /* FacebookTests */,
 				CBD0DEB21BABAF6300CC8E2F /* FacebookUITests */,
@@ -97,9 +121,18 @@
 		CBD0DE921BABAF6300CC8E2F /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				CB70E1191BB240D90047F71F /* Common.swift */,
+				CB20E9371BB4E4D700D56F5D /* LoginViewController.swift */,
 				CBD0DE931BABAF6300CC8E2F /* AppDelegate.swift */,
 				CBD0DE951BABAF6300CC8E2F /* ViewController.swift */,
 				CBD0DE971BABAF6300CC8E2F /* Main.storyboard */,
+				CBEDEF391BABD16B00BA2610 /* StatusViewController.swift */,
+				CBEDEF3B1BABD17800BA2610 /* PhotoViewController.swift */,
+				CBEDEF3D1BABD18100BA2610 /* LocationViewController.swift */,
+				CBD0DEC91BABB63B00CC8E2F /* NotificationsViewController.swift */,
+				CBD0DECB1BABB64600CC8E2F /* MoreViewController.swift */,
+				CBD0DEC71BABB62A00CC8E2F /* MessageViewController.swift */,
+				CBD0DEC51BABB61700CC8E2F /* RequestViewController.swift */,
 				CBD0DE9A1BABAF6300CC8E2F /* Assets.xcassets */,
 				CBD0DE9C1BABAF6300CC8E2F /* LaunchScreen.storyboard */,
 				CBD0DE9F1BABAF6300CC8E2F /* Info.plist */,
@@ -192,6 +225,7 @@
 				TargetAttributes = {
 					CBD0DE8F1BABAF6300CC8E2F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WY547A4YTJ;
 					};
 					CBD0DEA31BABAF6300CC8E2F = {
 						CreatedOnToolsVersion = 7.0;
@@ -255,8 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD0DECC1BABB64600CC8E2F /* MoreViewController.swift in Sources */,
 				CBD0DE961BABAF6300CC8E2F /* ViewController.swift in Sources */,
+				CBD0DEC41BABB5BD00CC8E2F /* FeedViewController.swift in Sources */,
+				CBD0DEC61BABB61700CC8E2F /* RequestViewController.swift in Sources */,
+				CB70E11A1BB240D90047F71F /* Common.swift in Sources */,
+				CBD0DECA1BABB63B00CC8E2F /* NotificationsViewController.swift in Sources */,
+				CBEDEF3E1BABD18100BA2610 /* LocationViewController.swift in Sources */,
 				CBD0DE941BABAF6300CC8E2F /* AppDelegate.swift in Sources */,
+				CBEDEF381BABBFE600BA2610 /* ThrillistViewController.swift in Sources */,
+				CBEDEF3A1BABD16B00BA2610 /* StatusViewController.swift in Sources */,
+				CBD0DEC81BABB62A00CC8E2F /* MessageViewController.swift in Sources */,
+				CB20E9381BB4E4D700D56F5D /* LoginViewController.swift in Sources */,
+				CBEDEF3C1BABD17900BA2610 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +443,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kvwong.Facebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +458,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Facebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kvwong.Facebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +536,7 @@
 				CBD0DEBA1BABAF6300CC8E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD0DEBB1BABAF6300CC8E2F /* Build configuration list for PBXNativeTarget "FacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +545,7 @@
 				CBD0DEBD1BABAF6300CC8E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD0DEBE1BABAF6300CC8E2F /* Build configuration list for PBXNativeTarget "FacebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +554,7 @@
 				CBD0DEC01BABAF6300CC8E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
