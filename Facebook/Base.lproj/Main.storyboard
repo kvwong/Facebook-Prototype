@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< Updated upstream
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="eO9-s2-H46">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+>>>>>>> Stashed changes
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -97,10 +101,19 @@
         <!--News Feed-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+<<<<<<< Updated upstream
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="FeedViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+>>>>>>> Stashed changes
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<<<<<<< Updated upstream
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vwJ-Q6-rDS">
                                 <rect key="frame" x="0.0" y="110" width="320" height="568"/>
@@ -158,6 +171,10 @@
                             </button>
                         </subviews>
                         <animations/>
+=======
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+>>>>>>> Stashed changes
                     </view>
                     <tabBarItem key="tabBarItem" title="News Feed" id="Bfv-GK-gQz"/>
                     <navigationItem key="navigationItem" id="sY1-ZJ-85b"/>
